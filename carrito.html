@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="Escarrito.css">
+</head>
+<body>
+    <div class="barra-superior-carrito">
+        <span class="nombre-tienda">Demi-God Shop</span>
+        <button id="volverTienda">Volver a la Tienda</button>
+    </div>
+
+    <div class="carrito-container">
+        <div class="carrito-info">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p id="total" class="carrito-total">Total: $0.00</p>
+            <div id="formPago">
+                <label for="formaPago">Forma de Pago:</label>
+                <input type="text" id="formaPago" placeholder="Escriba su forma de pago">
+                <button id="botonPagar">Pagar</button>
+            </div>
+            <div id="infoCompra" style="display: none;"></div> 
+        </div>
+    </div>
+
+    <script src="carrito.js"></script>
+</body>
+</html>
